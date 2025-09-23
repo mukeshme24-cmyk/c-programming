@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+    int x;
+    float y;
+    char z;
+    printf("Enter the x:");
+    scanf("%d",&x);
+    printf("Enter the y:");
+    scanf("%f",&y);
+    printf("Enter the z:");
+    scanf("%c",&z);
+    printf("a:%d/n",&x);
+}
+
