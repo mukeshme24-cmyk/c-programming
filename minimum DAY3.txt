@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,mini;
+    printf("Enter two numbers:");
+    scanf("%d %d",&a,&b);
+    mini=(a<b)?a:b;
+    printf("Minimum is %d \n",mini);
+    return 0;
+}
