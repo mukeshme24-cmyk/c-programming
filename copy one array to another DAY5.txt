@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+    int A[100],B[100],n,i;
+    printf("Enter number of element:");
+    scanf("%d",&n);
+    printf("Enter %d element of array A:\n",n);
+    for(i=0;i<n;i++){
+        scanf("%d",&A[i]);
+    }
+    for(i=0;i<n;i++){
+        B[i]=A[i];
+    }
+    printf("Array B after copying:\n");
+    for(i=0;i<n;i++){
+        printf("%d",B[i]);
+    }
+    return 0;
+}
